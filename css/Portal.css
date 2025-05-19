@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0b1c2c34;
+    font-style: normal;
+    line-height: 1.8;
+}
+
+header {
+    background-image: url(../img/Banner.jpg);
+    background: cover;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding-bottom: 1px;
+    height: 450px;
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+    font-size: .583rem;
+    word-break: normal;
+    padding: 12px;
+    border-radius: 0 18px;
+}
+
+.iconos {
+    font-size: 35px;
+    border-radius: 10px;
+    color: #4E91C3;
+}
+
+.codiv {
+    background-color: #4E91C3;
+    height: 55px;
+}
+
+.codiv1 {
+    background-color: #0D4170;
+    height: 50px;
+}
+
+.cl:hover {
+    scale: 1.1;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'reboto' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+
+h3 {
+    font-family: 'reboto' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #08345bbe;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'reboto' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #fff;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.bold2 {
+    color: #717274;
+    font-family: Cairo, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.bold3 {
+    color: #3280b8;
+    font-family: Cairo, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.img2 {
+    width: 110px;
+    height: 60px;
+    /* margin-top: -10px; */
+    content: center;
+    border-radius: 0 18px;
+}
+
+.imgFirew {
+    width: 300px;
+    height: 160px;
+}
+
+.imgAnt {
+    width: 70px;
+    height: 60px;
+    margin-top: -83px;
+}
+
+.imgAnt3 {
+    width: 90px;
+    height: 70px;
+}
+
+.imcarrusel {
+    height: 358px;
+    color: #d4c5c5;
+    opacity: 0.1;
+}
+
+.cenf {
+    height: 300px !important;
+}
+
+
+/* //whaps */
+
+.whaps {
+    color: #e1ede3;
+    justify-content: center;
+    padding-block: 10px;
+    font-size: 41px;
+}
+
+.container-boton {
+    background-color: #19f141;
+    border: 3px solid #fff;
+    position: fixed;
+    z-index: 500;
+    border-radius: 50%;
+    font-size: 15px;
+    bottom: 15px;
+    right: 20px;
+    transition: 0.3s;
+    animation: efecto 1.8s infinite;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.container-boton:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.boton {
+    transition: ease 10s;
+    padding-top: 70px;
+}
+
+
+/* footer */
+
+footer {
+   padding: 5px 50px;
+    padding-top: 40px;
+    background: #080808e9; 
+    height:60vh;
+}
+
+.text1 {
+    font-family: Cairo, sans-serif;
+    color: #717274;
+    font-size: 14px;
+}
+
+a {
+    font-family: Cairo, sans-serif;
+    text-decoration: none;
+    color: #717274;
+    font-size: 14px;
+}
+
+a1 {
+    font-family: Cairo, sans-serif;
+    text-decoration: none;
+    color: #0749cd86;
+    font-size: 14px;
+}
+
+.span {
+    text-align: center;
+    justify-content: center;
+    color: #717274;
+    font-size: 14px;
+}
+
+hr {
+    height: 2px;
+    background-color: #717274;
+}
+
+
+/* reposive */
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(3, 18, 36, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(234, 228, 228, 0.059);
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    header {
+        height: 600px;
+    }
+    .h {
+        margin: 0 10vw;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    header {
+        height: 800px;
+    }
+}
+
+.mg-bottom {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        background-image: url(../img/Banner.jpg);
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .imgFirew {
+        height: 200px;
+        width: 200px;
+    }
+}
